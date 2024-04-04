@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://canopy-iiif.github.io/canopy-iiif
+Host: https://abolition-now.github.io/an
 
 # Sitemaps
-Sitemap: https://canopy-iiif.github.io/canopy-iiif/sitemap.xml
+Sitemap: https://abolition-now.github.io/an/sitemap.xml
