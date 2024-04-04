@@ -1,18 +1,11 @@
 {
-  "prod": {
-    "label": { "none": ["Abolition Now"] },
-    "collection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
-    "featured": [
-      "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire.json"
-    ],
-    "metadata": ["Subject", "Artist", "Slogans", "Visual Motif"]
-  },
-  "dev": {
-    "label": { "none": ["Abolition Now"] },
-    "collection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
-    "metadata": ["Subject", "Artist", "Slogans", "Visual Motif"],
-    "featured": [
-      "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire.json"
-    ]
+  "collection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
+  "devCollection": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/collections/abolition-now.json",
+  "featured": [
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire.json"
+  ],
+  "metadata": ["Subject", "Artist", "Slogans", "Visual Motif"],
+  "summary": {
+    "none": ["Images for Study and Struggle"]
   }
 }
