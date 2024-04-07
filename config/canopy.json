@@ -5,7 +5,7 @@
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire.json",
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0089_waterismedicine.json"
   ],
-  "metadata": ["Subject", "Artist", "Slogans", "Visual Motif"],
+  "metadata": ["Subject", "Artist", "Slogans", "Visual Motifs", "Date", "Geography", "People", "Medium"],
   "summary": {
     "none": ["Images for Study and Struggle"]
   },
