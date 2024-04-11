@@ -8,6 +8,10 @@
     "text": "Metadata"
   },
   {
+    "path": "/map",
+    "text": "Map"
+  },
+  {
     "path": "/guides",
     "text": "Study Guides"
   }
