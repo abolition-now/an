@@ -14,5 +14,9 @@
   {
     "path": "/guides",
     "text": "Study Guides"
+  },
+  {
+    "path": "/team",
+    "text": "Project Team"
   }
 ]
