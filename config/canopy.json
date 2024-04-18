@@ -6,7 +6,9 @@
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0089_waterismedicine.json",
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0210_0211_restinpower.json",
     "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0148_abolitionpigcop.json",
-    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0073_youthsoeducated.json"
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0073_youthsoeducated.json",
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0204_carnames.json",
+    "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0141_humanityoverhate.json"
   ],
   "metadata": ["Subject", "Artist", "Slogans", "Visual Motifs", "Date", "Geography", "People", "Medium", "Photographer"],
   "summary": {
