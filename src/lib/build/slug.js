@@ -14,7 +14,7 @@ function getNumber(number) {
   return number ? number + 1 : 1;
 }
 
-function getSlug(text) {
+function getSlug(text = "") {
   return limit(slugify(text, config), 100);
 }
 
