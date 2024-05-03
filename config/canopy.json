@@ -39,6 +39,7 @@
     "accentColor": "red",
     "grayColor": "mauve",
     "radius": "none",
-    "scaling": "100%"
+    "scaling": "100%",
+    "toggleEnabled": true
   }
 }
