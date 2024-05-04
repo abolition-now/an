@@ -35,7 +35,7 @@
     ]
   },
   "theme": {
-    "defaultTheme": "light",
+    "defaultTheme": "dark",
     "accentColor": "red",
     "grayColor": "mauve",
     "radius": "none",
