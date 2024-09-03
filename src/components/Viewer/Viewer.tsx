@@ -67,7 +67,7 @@ const StyledCloverViewer = styled("div", {
     },
   },
   ".clover-viewer-content": {
-    minHeight: "800px",
+    minHeight: "700px",
   },
   ".clover-viewer-media-wrapper": {
     zIndex: "99999",
