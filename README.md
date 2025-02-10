@@ -2,7 +2,17 @@
 
 An open-source static site generator designed for fast creation, contextualization, and customization of a discovery-focused digital scholarship and collections website using [IIIF](https://iiif.io/) APIs.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/fork/github/canopy-iiif/canopy-iiif)
+#### 🌏  Open in Cloud IDEs
+
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase without having to install anything on your machine:
+
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/canopy-iiif/canopy-iiif)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/canopy-iiif/canopy-iiif)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/fork/github/canopy-iiif/canopy-iiif) 
+[![Edit in Codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/canopy-iiif/canopy-iiif)
+[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/canopy-iiif/canopy-iiif)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/canopy-iiif/canopy-iiif)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/canopy-iiif/canopy-iiif)
 
 - [Demo (Static)](https://canopy-iiif.github.io/canopy-iiif/)
 - [Documentation](https://canopy-iiif.github.io/docs/)
