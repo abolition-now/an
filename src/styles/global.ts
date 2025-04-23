@@ -35,6 +35,10 @@ const defaults = {
       lineHeight: "1.47em",
     },
   },
+
+  ".clover-viewer-header": {
+    display: "none",
+  },
 };
 
 const globalStyles = globalCss({
