@@ -26,14 +26,16 @@ const WorkLinkingProperty = ({
 }) => {
   return (
     <StyledLinkingProperty>
-      {/* {rendering && (
-        <dl>
+      {rendering && (
+        <dl style={{ display: "none" }}>
           <dt>{LocaleString("primitiveRendering") || "Alternate formats"}</dt>
-          <dd><Rendering rendering={rendering} /></dd>
+          <dd>
+            <Rendering rendering={rendering} />
+          </dd>
         </dl>
-      )} */}
+      )}
       {seeAlso && (
-        <dl>
+        <dl style={{ display: "none" }}>
           <dt>{LocaleString("primitiveSeeAlso") || "See also"}</dt>
           <dd>
             <SeeAlso seeAlso={seeAlso} />
@@ -42,7 +44,7 @@ const WorkLinkingProperty = ({
       )}
       {homepage && (
         <dl>
-          <dt>{LocaleString("primitiveHomepage") || "Homepage"}</dt>
+          <dt>{LocaleString("primitiveHomepage") || "Internet Archive"}</dt>
           <dd>
             <Homepage homepage={homepage} />
           </dd>
@@ -50,7 +52,7 @@ const WorkLinkingProperty = ({
       )}
       {partOf && (
         <dl>
-          <dt>{LocaleString("primitivePartOf") || "Parent collections"}</dt>
+          <dt>{LocaleString("primitivePartOf") || "IIIF Collection"}</dt>
           <dd>
             <PartOf partOf={partOf} />
           </dd>
