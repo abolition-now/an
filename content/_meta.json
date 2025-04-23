@@ -8,7 +8,15 @@
     "text": "Metadata"
   },
   {
-    "path": "/about",
-    "text": "About"
+    "path": "/map",
+    "text": "Map"
+  },
+  {
+    "path": "/guides",
+    "text": "Study Guides"
+  },
+  {
+    "path": "/team",
+    "text": "Project Team"
   }
 ]

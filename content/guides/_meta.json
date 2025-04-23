@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/guides",
+    "text": "Study Guides"
+  },
+  {
+    "path": "/guides/josh-macphee",
+    "text": "Josh MacPhee"
+  },
+  {
+    "path": "/guides/delesslin-roo-george-warren",
+    "text": "DeLesslin “Roo” George-Warren"
+  },
+  {
+    "path": "/guides/dylan-miner",
+    "text": "Dylan Miner"
+  }
+]
