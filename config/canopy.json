@@ -28,7 +28,7 @@
   "label": { "none": ["abolition now."] },
   "map": {
     "defaultBounds": [[51.505, -0.09]],
-    "enabled": true,
+    "enabled": false,
     "icon": {
       "iconUrl": "images/marker-icon.png",
       "iconSize": [24, 36],
