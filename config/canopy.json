@@ -1,5 +1,6 @@
 {
   "collection": "https://raw.githubusercontent.com/abolition-now/iiif/refs/heads/main/presentation/abolition-images.json",
+  "devCollection": "https://raw.githubusercontent.com/abolition-now/iiif/refs/heads/main/presentation/an-dev.json",
   "featured": [
     "https://iiif.archive.org/iiif/an_0028_abolitionwithbarbedwire/manifest.json",
     "https://iiif.archive.org/iiif/an_0089_waterismedicine/manifest.json",
@@ -9,33 +10,17 @@
     "https://iiif.archive.org/iiif/an_0141_humanityoverhate/manifest.json",
     "https://iiif.archive.org/iiif/an_0007_stopcopcity/manifest.json",
     "https://iiif.archive.org/iiif/an_0007_walaaloisjeceylgeorgefloydphoenix/manifest.json",
-    "https://iiif.archive.org/iiif/an_0063_housingkeepsyouthfree/manifest.json",
-    "https://iiif.archive.org/iiif/an_0013_0016_ifyouhealwomen/manifest.json",
-    "https://iiif.archive.org/iiif/an_0181_0182_chopsticksinabundle_oo.jpg/manifest.json",
-    "https://iiif.archive.org/iiif/an_0007_hatevicpol/manifest.json",
-    "https://iiif.archive.org/iiif/an_0007_solidaritypows/manifest.json",
-    "https://iiif.archive.org/iiif/an_0007_abolishpolice_oo.jpg/manifest.json",
-    "https://iiif.archive.org/iiif/an_0195_0196_blmstopasianhate_oo.jpg/manifest.json",
-    "https://iiif.archive.org/iiif/an_0102_0104_freeourelders/manifest.json",
-    "https://iiif.archive.org/iiif/an_0258_abolishprison/manifest.json",
-    "https://iiif.archive.org/iiif/an_0169_giveusflowers/manifest.json",
-    "https://iiif.archive.org/iiif/an_0244_stopcopcity/manifest.json",
-    "https://iiif.archive.org/iiif/an_0103_0104_freethem4publichealth/manifest.json",
-    "https://iiif.archive.org/iiif/an_0041_stephanieandmajor_oo/manifest.json",
-    "https://iiif.archive.org/iiif/an_0204_carnames/manifest.json",
-    "https://iiif.archive.org/iiif/an_0007_nopermissiontobefree/manifest.json",
-    "https://iiif.archive.org/iiif/an_0136_policefreeschools/manifest.json"
+    "https://iiif.archive.org/iiif/an_0063_housingkeepsyouthfree/manifest.json"
   ],
   "metadata": [
-    "Subject",
-    "Artist",
-    "Slogans",
-    "Visual Motifs",
-    "Date",
-    "Geography",
-    "People",
-    "Medium",
-    "Photographer"
+    "subject",
+    "creator",
+    "slogans",
+    "visual_motifs",
+    "date",
+    "geography",
+    "people",
+    "medium"
   ],
   "summary": {
     "none": ["Images for Study and Struggle"]
