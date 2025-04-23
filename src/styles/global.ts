@@ -37,7 +37,35 @@ const defaults = {
   },
 
   ".clover-viewer-header": {
-    display: "none",
+    display: "none !important",
+  },
+
+  ".clover-viewer-painting": {
+    height: "600px !important",
+    maxHeight: "100vh !important",
+  },
+
+  "#clover-iiif-video": {
+    height: "600px !important",
+    maxHeight: "100vh !important",
+  },
+
+  ".an-work-metadata": {
+    "[data-label=identifier]": {
+      display: "none",
+    },
+    "[data-label=collection]": {
+      display: "none",
+    },
+    "[data-label=mediatype]": {
+      display: "none",
+    },
+    "[data-label=title]": {
+      display: "none",
+    },
+    "[data-label=addeddate]": {
+      display: "none",
+    },
   },
 };
 
