@@ -82,6 +82,7 @@ const StyledCloverViewer = styled("div", {
     "span.label": {
       fontSize: "$gr4",
     },
+
     "& button": {
       backgroundColor: "var(--gray-1)",
 

@@ -44,11 +44,7 @@ const WorkViewer = (props: CloverViewerProps) => {
   return (
     <>
       {viewer === "clover" && (
-        <ViewerClover
-          options={{ canvasHeight: "50vh" }}
-          {...props}
-          canvasIdCallback={handleCanvasIdCallback}
-        />
+        <ViewerClover {...props} canvasIdCallback={handleCanvasIdCallback} />
       )}
 
       {viewer === "ramp" && <ViewerRamp {...props} />}
