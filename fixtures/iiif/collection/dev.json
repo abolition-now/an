@@ -1,0 +1,215 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "homepage": [
+    {
+      "format": "text/html",
+      "id": "https://archive.org/details/abolition-now-images",
+      "label": {
+        "en": ["Item Page on Internet Archive"]
+      },
+      "type": "Text"
+    }
+  ],
+  "id": "https://abolitionimages.org/fixtures/iiif/collection/dev.json",
+  "items": [
+    {
+      "id": "https://iiif.archive.org/iiif/an_0005_seemyneighbors_interview/manifest.json",
+      "label": {
+        "none": ["I See My Neighbors"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0126_0278_0113_culturalorganizing_interview/manifest.json",
+      "label": {
+        "none": ["Cultural Organizing 101: Train the Trainers"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0266_indigenousland_interview/manifest.json",
+      "label": {
+        "none": ["Entering Indigenous Land"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0007_breonnataylormother/manifest.json",
+      "label": {
+        "none": ["Mother and Daughter"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0007_georgefloydeyesla/manifest.json",
+      "label": {
+        "none": ["George Floyd's Eyes, Greyscale"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0007_georgefloydvenezuela/manifest.json",
+      "label": {
+        "none": ["George Floyd"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0025_whenigetmyfreedom/manifest.json",
+      "label": {
+        "none": ["When I Get My Freedom"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0033_dreamingfreedombirdwire/manifest.json",
+      "label": {
+        "none": ["Birds Breaking Free"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0041_ruthiemuralflora/manifest.json",
+      "label": {
+        "none": ["The Abolitionist Spirit of Ruth Wilson Gilmore"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0043_0013_myancestorsmyshoes/manifest.json",
+      "label": {
+        "none": ["My Ancestors"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0024_dumpprisonstock/manifest.json",
+      "label": {
+        "none": ["Dump the Prison Stock!"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0077_landyouhavetokillfor/manifest.json",
+      "label": {
+        "none": ["Land You Have To Kill For"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0096_protectsacredrivers/manifest.json",
+      "label": {
+        "none": ["Protect Sacred Rivers"]
+      },
+      "type": "Manifest"
+    },
+    {
+      "id": "https://iiif.archive.org/iiif/an_0138_georgefloydmemorialsitemural/manifest.json",
+      "label": {
+        "none": ["George Floyd Memorial Site Mural"]
+      },
+      "type": "Manifest"
+    }
+  ],
+  "label": {
+    "none": ["Abolition Now: Images for study and struggle"]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": ["identifier"]
+      },
+      "value": {
+        "none": ["abolition-now-images"]
+      }
+    },
+    {
+      "label": {
+        "none": ["hidden"]
+      },
+      "value": {
+        "none": ["true"]
+      }
+    },
+    {
+      "label": {
+        "none": ["mediatype"]
+      },
+      "value": {
+        "none": ["collection"]
+      }
+    },
+    {
+      "label": {
+        "none": ["title"]
+      },
+      "value": {
+        "none": ["Abolition Now: Images for study and struggle"]
+      }
+    },
+    {
+      "label": {
+        "none": ["collection"]
+      },
+      "value": {
+        "none": ["image"]
+      }
+    },
+    {
+      "label": {
+        "none": ["addeddate"]
+      },
+      "value": {
+        "none": ["2025-04-24 19:44:28"]
+      }
+    },
+    {
+      "label": {
+        "none": ["subject"]
+      },
+      "value": {
+        "none": ["Abolition"]
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://iiif.archive.org/iiif/image/collection.json",
+      "type": "Collection"
+    }
+  ],
+  "provider": [
+    {
+      "homepage": [
+        {
+          "format": "text/html",
+          "id": "https://archive.org",
+          "label": {
+            "en": ["Internet Archive Homepage"]
+          },
+          "type": "Text"
+        }
+      ],
+      "id": "https://archive.org",
+      "label": {
+        "en": ["The Internet Archive"]
+      },
+      "logo": [
+        {
+          "format": "image/png",
+          "height": 79,
+          "id": "https://archive.org/images/glogo.png",
+          "type": "Image",
+          "width": 79
+        }
+      ],
+      "type": "Agent"
+    }
+  ],
+  "summary": {
+    "none": [
+      "Documenting an unprecedented flow of social movement art in the era of new abolition. Every time you arrive at the portals of Abolition Now, you encounter abolition as its images exist now, which is to say past in present, prefiguring the future, on the move."
+    ]
+  },
+  "type": "Collection"
+}
