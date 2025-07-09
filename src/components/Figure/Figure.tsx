@@ -2,7 +2,6 @@ import { Image, Wrapper } from "@components/Figure/Figure.styled";
 import React, { useEffect, useRef, useState } from "react";
 
 import clsx from "clsx";
-import { getResourceImage } from "@hooks/getResourceImage";
 
 interface FigureProps {
   alt: string;
@@ -24,7 +23,9 @@ const Figure: React.FC<FigureProps> = ({
   const imgRef = useRef(null);
 
   useEffect(() => {
-    setImage(getResourceImage(resource, size, region));
+    if (!resource || !resource.length) return;
+
+    setImage(resource[0].id);
 
     // @ts-ignore
     if (imgRef?.current && imgRef?.current?.complete) setLoaded(true);
