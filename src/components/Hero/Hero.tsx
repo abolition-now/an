@@ -39,7 +39,10 @@ const Hero: React.FC<HeroProps> = ({ collection }) => {
           <SwiperSlide key={item?.id}>
             <figure>
               <Link href={item?.homepage[0]?.id ? item?.homepage[0]?.id : "/"}>
-                <Thumbnail thumbnail={item?.thumbnail} altAsLabel={item?.label} />
+                <Thumbnail
+                  thumbnail={item?.thumbnail}
+                  altAsLabel={item?.label}
+                />
                 <figcaption>
                   <Container className="slide-inner" isFlex>
                     <Label

@@ -1,6 +1,5 @@
 {
   "collection": "https://iiif.archive.org/iiif/3/abolition-now-images/collection.json",
-  "devCollection": "https://abolitionimages.org/fixtures/iiif/collection/dev.json",
   "featured": [
     "https://iiif.archive.org/iiif/an_0028_abolitionwithbarbedwire/manifest.json",
     "https://iiif.archive.org/iiif/an_0089_waterismedicine/manifest.json",

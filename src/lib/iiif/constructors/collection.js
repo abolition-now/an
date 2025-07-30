@@ -21,18 +21,26 @@ async function createCollection(iiifResources, baseUrl, label = "") {
 async function createItem(resource, baseUrl) {
   const item = MANIFESTS.find((item) => item.id === resource.id);
   if (item?.slug) {
-    const { best } = await getRepresentativeImage(resource, 2000);
+    const representativeImage = await getRepresentativeImage(resource);
+    const { best, fallback } = representativeImage || {};
+
+    /**
+     * If the best image is smaller than 720px, we use the first fallback
+     */
+    const candidateThumbnail =
+      best?.width < 720 && fallback[0] ? fallback[0] : best;
+
     return {
       id: resource.id,
       label: resource.label,
-      thumbnail: best
+      thumbnail: candidateThumbnail
         ? [
             {
-              id: best.id,
+              id: candidateThumbnail.id,
               type: "Image",
               format: "image/jpeg",
-              width: best.width || 720,
-              height: best.height || 720,
+              width: candidateThumbnail.width || 720,
+              height: candidateThumbnail.height || 720,
             },
           ]
         : [],
