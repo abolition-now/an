@@ -3,17 +3,41 @@
     "path": "/guides",
     "text": "Study Guides"
   },
+    {
+    "path": "/guides/micah-bazant",
+    "text": "Micah Bazant"
+  },
+   {
+    "path": "/guides/alex-bonner",
+    "text": "Alex Bonner"
+  },
+   {
+    "path": "/guides/nicole-fleetwood",
+    "text": "Nicole Fleetwood"
+  },
+    {
+    "path": "/guides/john-fleissner",
+    "text": "John Fleissner"
+  },
+    {
+    "path": "/guides/delesslin-roo-george-warren",
+    "text": "DeLesslin “Roo” George-Warren"
+  },
+  {
+    "path": "/guides/lacy-hale",
+    "text": "Lacy Hale"
+  },
   {
     "path": "/guides/josh-macphee",
     "text": "Josh MacPhee"
   },
   {
-    "path": "/guides/delesslin-roo-george-warren",
-    "text": "DeLesslin “Roo” George-Warren"
-  },
-  {
     "path": "/guides/dylan-miner",
     "text": "Dylan Miner"
+  },
+  {
+    "path": "/guides/ricardo-morales",
+    "text": "Ricardo Morales"
   },
   {
     "path": "/guides/monica-trinidad",
@@ -22,25 +46,5 @@
 {
     "path": "/guides/kah-yangni",
     "text": "Kah Yangni"
-  },
-  {
-    "path": "/guides/lacy-hale",
-    "text": "Lacy Hale"
-  },
-  {
-    "path": "/guides/micah-bazant",
-    "text": "Micah Bazant"
-  },
-  {
-    "path": "/guides/nicole-fleetwood",
-    "text": "Nicole Fleetwood"
-  },
-   {
-    "path": "/guides/john-fleissner",
-    "text": "John Fleissner"
-  }
-{
-    "path": "/guides/ricardo-morales",
-    "text": "Ricardo Morales"
   }
 ]
