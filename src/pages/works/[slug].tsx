@@ -88,41 +88,48 @@ export async function getStaticProps({ params }: { params: any }) {
   const { id, index } = MANIFESTS.find(
     (item) => item.slug === params.slug
   ) as any;
-  const manifest = (await fetch(id)) as Manifest;
 
-  /**
-   * build the seo object
-   */
-  const seo = await buildManifestSEO(manifest, `/works/${params.slug}`);
-  const related = FACETS.map((facet) => {
-    const value = shuffle(
-      facet.values.filter((entry) => entry.docs.includes(index))
-    );
-    return `${baseUrl}/api/facet/${facet.slug}/${value[0]?.slug}.json?sort=random`;
-  });
+  try {
+    const manifest = (await fetch(id)) as Manifest;
 
-  /**
-   * Find connected NextJS pages which reference this manifest
-   */
-  const referencingContent = await getReferencingContent({
-    manifestId: manifest.id,
-    // Directories in which to look for markdown files with frontmatter content
-    srcDir: ["content"],
-  });
+    /**
+     * build the seo object
+     */
+    const seo = await buildManifestSEO(manifest, `/works/${params.slug}`);
+    const related = FACETS.map((facet) => {
+      const value = shuffle(
+        facet.values.filter((entry) => entry.docs.includes(index))
+      );
+      return `${baseUrl}/api/facet/${facet.slug}/${value[0]?.slug}.json?sort=random`;
+    });
 
-  const { frontMatter, source } = await getMarkdownContent({
-    slug: "_layout",
-    directory: "works",
-  });
+    /**
+     * Find connected NextJS pages which reference this manifest
+     */
+    const referencingContent = await getReferencingContent({
+      manifestId: manifest.id,
+      // Directories in which to look for markdown files with frontmatter content
+      srcDir: ["content"],
+    });
 
-  /**
-   * scrub the manifest of any provider property
-   */
-  delete manifest.provider;
+    const { frontMatter, source } = await getMarkdownContent({
+      slug: "_layout",
+      directory: "works",
+    });
 
-  return {
-    props: { manifest, related, seo, referencingContent, source, frontMatter },
-  };
+    /**
+     * scrub the manifest of any provider property
+     */
+    delete manifest.provider;
+
+    return {
+      props: { manifest, related, seo, referencingContent, source, frontMatter },
+    };
+  } catch (err) {
+    // If a manifest can't be fetched (non-200 or network error),
+    // skip generating this page and let Next serve a 404 for it.
+    return { notFound: true };
+  }
 }
 
 export async function getStaticPaths() {
