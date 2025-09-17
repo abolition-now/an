@@ -8,8 +8,6 @@ An open-source static site generator designed for fast creation, contextualizati
 - [Demo (Vercel SSR)](https://canopy-iiif.vercel.app/)
 - [Documentation](https://canopy-iiif.github.io/docs/)
 
-![collage of canopy iiif views](https://github.com/canopy-iiif/canopy-iiif/assets/7376450/1779a0ce-1f62-4e9b-8186-110264c81bba)
-
 ## Setup
 
 ### Install Dependencies
