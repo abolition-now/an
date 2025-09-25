@@ -13,11 +13,11 @@ const Footer = () => {
     <FooterStyled>
       <Container>
         <FooterContent>
-          <CollectionLink href={collection} target="_blank">
+          {/* <CollectionLink href={collection} target="_blank">
             <IIIF />
             {LocaleString("footerSourceCollection")}
           </CollectionLink>
-          <ThemeMode />
+          <ThemeMode /> */}
         </FooterContent>
       </Container>
     </FooterStyled>
