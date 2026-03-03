@@ -39,3 +39,5 @@ theme:
   appearance: dark
   accentColor: tomato
   grayColor: gray
+site:
+  baseUrl: https://abolitionimages.org
