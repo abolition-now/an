@@ -13,6 +13,11 @@ metadata:
 featured:
   - https://iiif.archive.org/iiif/an_0089_waterismedicine/manifest.json
   - https://iiif.archive.org/iiif/an_0007_walaaloisjeceylgeorgefloydphoenix/manifest.json
+  - https://iiif.archive.org/iiif/an_0001_anotherworldispossible/manifest.json
+  - https://iiif.archive.org/iiif/an_0004_wechargegenocide/manifest.json
+  - https://iiif.archive.org/iiif/an_0005_mariamekaba/manifest.json
+  - https://iiif.archive.org/iiif/an_0063_inourfreefuture/manifest.json
+  - https://iiif.archive.org/iiif/an_0123_communitynotprisons/manifest.json
 search:
   page:
     title: Search
