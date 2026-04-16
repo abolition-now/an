@@ -1,6 +1,8 @@
 navigation:
   - href: /search
     label: Art
+  - href: https://abolitionimages.org/search?type=work&subject=interviews
+    label: Interviews
   - href: /guides
     label: Guides
   - href: /terms
