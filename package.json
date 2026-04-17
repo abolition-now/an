@@ -9,8 +9,8 @@
     "dev": "tsx app/scripts/canopy-build.mts"
   },
   "dependencies": {
-    "@canopy-iiif/app": "^1.9.21",
-    "@samvera/clover-iiif": "^3.3.8",
+    "@canopy-iiif/app": "^1.10.7",
+    "@samvera/clover-iiif": "^3.4.0",
     "esbuild": "^0.21.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
