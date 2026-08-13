@@ -8,7 +8,7 @@ export default function GetInvolved({text = "Get involved"}: {text?: string}) {
   return (
     <ButtonWrapper variant="interstitial" text={text}>
       <Button href={SUBMISSION_FORM_URL} variant="primary" target="_blank">
-        Submit your art
+        Submit an image
       </Button>
       <Button href="mailto:abolitionimages@gmail.com" variant="secondary">
         Email us
